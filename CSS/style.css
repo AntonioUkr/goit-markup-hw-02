@@ -3,6 +3,13 @@ body {
   font-style: normal;
 }
 
+:root {
+  --tittle-color: #212121;
+  --text: #757575;
+  --text-tittle-background: #ffffff;
+  --hover-background: #2196f3;
+}
+
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -25,4 +32,64 @@ a {
 }
 li {
   list-style-type: none;
+}
+.nav-menu a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--tittle-color);
+}
+.adress-link a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.hero-section {
+  background-color: blue;
+}
+.hero-tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-tittle-background);
+}
+.hero-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  /* display: flex; пока не применяем  */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-tittle-background);
+}
+.list-item-feature h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--tittle-color);
+}
+.list-item-feature p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: var(--text);
 }
