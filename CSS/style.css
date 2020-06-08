@@ -40,6 +40,12 @@ li {
   letter-spacing: 0.02em;
   color: var(--tittle-color);
 }
+.nav-menu-link:hover {
+  color: var(--hover-background);
+}
+.nav-menu-link:focus {
+  color: var(--hover-background);
+}
 .adress-link a {
   font-style: normal;
   font-weight: 500;
@@ -178,4 +184,39 @@ footer {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.4);
+}
+
+/* стили portfolio main */
+
+/* сделал через li и потом a потому что если только через ли то по центру 
+но остается цвет ссылок, а если только через "а", то не центруется */
+.main-nav-item li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.main-nav-item a {
+  color: var(--tittle-color);
+}
+.portfolio-main-tittle h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+  color: var(--tittle-color);
+}
+.portfolio-main-tittle p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+  color: var(--text);
 }

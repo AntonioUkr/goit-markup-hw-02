@@ -16,11 +16,11 @@
   <body>
     <!-- Шапка сайта -->
     <header>
-      <nav>
-        <p>Web Studio</p>
+      <nav class="nav-menu">
+        <p class="logo"><span class="logo-web">Web</span> Studio</p>
         <ul>
           <li>
-            <a href="./index.html">Студия</a>
+            <a class="nav-menu-link" href="./index.html">Студия</a>
           </li>
           <li>
             <a href="./portfolio.html">Портфолио</a>
@@ -31,10 +31,12 @@
         </ul>
       </nav>
 
-      <address>
+      <address class="adress-link">
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="nav-menu-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
@@ -43,7 +45,7 @@
 
     <!-- основной блок портфолио -->
     <main>
-      <nav>
+      <nav class="main-nav-item">
         <ul>
           <li>
             <a href="">Все</a>
@@ -65,7 +67,7 @@
 
       <!-- блок с примерами работ -->
       <section>
-        <ul>
+        <ul class="portfolio-main-tittle">
           <li>
             <img
               src="./images/porfolio/technokryak.jpg"
@@ -139,25 +141,25 @@
       <!-- можно было все 3 p сделать заголовками h3 и в список -->
 
       <div>
-        <p>Web Studio</p>
+        <p class="logo-footer"><span class="logo-web">Web</span> Studio</p>
 
-        <address>
+        <address class="footer-adress">
           <ul>
             <li>
               <p>г. Киев, пр-т Леси Украинки, 26</p>
             </li>
             <li>
-              <p>info@example.com</p>
+              <p class="link-footer">info@example.com</p>
             </li>
             <li>
-              <p>+38 099 111 11 11</p>
+              <p class="link-footer">+38 099 111 11 11</p>
             </li>
           </ul>
         </address>
       </div>
 
       <div>
-        <p>присоединяйтесь</p>
+        <p class="footer-tittle">присоединяйтесь</p>
         <ul>
           <li><a href="">Instagram</a></li>
           <li><a href="">Twitter</a></li>
@@ -167,9 +169,12 @@
       </div>
 
       <!-- Поле форма убрал пока не делаем -->
+      <div>
+        <p class="footer-tittle">Подпишитесь на рассылку</p>
+      </div>
 
       <div>
-        <p>2020 | Developed by GoIT Students</p>
+        <p class="footer-copyright">2020 | Developed by GoIT Students</p>
       </div>
     </footer>
   </body>
